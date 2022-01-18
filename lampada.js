@@ -4,10 +4,10 @@ function clique(){
   let imagem = document.getElementById('imagem').src;
   let lampadaDesligada = "https://i.ibb.co/6bz3GN1/bulb-off.png";
   let lampadaLigada = "https://i.ibb.co/sWPkDc0/bulb-on.png";
-  let audio = new Audio('Audio/audio.mp3');
+  let audio = new Audio('Áudio/audio.mp3');
   
   audio.play()
-  body.classList.toggle('body')
+  body.classList.add('body')
   window.navigator.vibrate(200);
 
   if(imagem === lampadaLigada){
