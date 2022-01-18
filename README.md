@@ -32,7 +32,7 @@
 
 <p align="justify">
 
--  Para visitar o site basta clicar <a href="" target="_blank">AQUI</a>
+-  Para visitar o site basta clicar <a href="https://walysonmoura.github.io/lampada/" target="_blank">AQUI</a>
 -  ou se preferir basta apontar a câmera do seu celular para o QR CODE abaixo:
 
 </p>
