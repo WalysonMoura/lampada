@@ -7,7 +7,7 @@ function clique(){
   let audio = new Audio('Áudio/audio.mp3');
   
   audio.play()
-  body.classList.add('body')
+  body.classList.toggle('body');
   window.navigator.vibrate(200);
 
   if(imagem === lampadaLigada){
