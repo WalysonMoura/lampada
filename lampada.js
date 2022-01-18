@@ -8,11 +8,11 @@ function clique(){
   
   audio.play()
   body.classList.toggle('body');
-  window.navigator.vibrate(200);
 
   if(imagem === lampadaLigada){
     document.getElementById('imagem').src = lampadaDesligada;
-    
+    window.navigator.vibrate(200);
+
   } else {
    document.getElementById('imagem').src = lampadaLigada;
   }
