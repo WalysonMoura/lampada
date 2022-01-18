@@ -15,6 +15,8 @@ function clique(){
 
   } else {
    document.getElementById('imagem').src = lampadaLigada;
+    window.navigator.vibrate(200);
+
   }
   
 }
