@@ -1,6 +1,6 @@
 
 function clique(){
-  window.navigator.vibrate(200);
+  
   let body = document.querySelector("body")
   let imagem = document.getElementById('imagem').src;
   let lampadaDesligada = "https://i.ibb.co/6bz3GN1/bulb-off.png";
@@ -17,7 +17,7 @@ function clique(){
    document.getElementById('imagem').src = lampadaLigada;
 
   }
-  
+  window.navigator.vibrate([200])
 }
 
 
